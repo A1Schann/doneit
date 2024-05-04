@@ -32,3 +32,27 @@ function addTask(taskText) {
   taskItem.appendChild(deleteButton);
   taskList.appendChild(taskItem);
 }
+document.getElementById("start-btn").addEventListener("click", function() {
+    // Add your language change logic here
+    // For example, you can change the text content of elements to display different languages
+  });
+  function addCloseButtons() {
+    const elements = document.querySelectorAll('.dashboard > div');
+
+    elements.forEach(element => {
+        const button = document.createElement('button');
+        button.innerHTML = '×';
+        button.title = 'Close';
+
+        button.style.cursor = 'pointer';
+        button.style.marginRight = '5px';
+
+        button.onclick = function() {
+            element.remove();
+        };
+
+        element.insertBefore(button, element.firstChild);
+    });
+}
+
+addCloseButtons();
