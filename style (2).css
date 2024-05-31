@@ -1,0 +1,19 @@
+body{
+    font-family: Courier New, monospace;
+    text-align: center;
+    background-color: #FFEBCD;
+}
+
+#oneBook{
+    display: flex;
+    justify-content: center;
+    width: 1700px;
+    height: 100px;
+    background-color: #fcc573;
+    font-family: cursive;
+}
+
+#close{
+    height: 100pxpx;
+    width: 200px;
+}
