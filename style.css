@@ -22,10 +22,10 @@ body {
 	font-size: 15px;
 	background: repeating-linear-gradient(
 		45deg,
-		#aaa,
-		#aaa 2px,
-		#ccc 2px,
-		#ccc 6px
+		#f7f7f7,
+		#fcc573 2px,
+		#f7f7f7 2px,
+		#fcc573 6px
 	);
 	background-attachment: fixed;
 }
@@ -46,7 +46,7 @@ body {
 .dashboard > div {
 	margin-bottom: 20px;
 	padding: 15px;
-	background-color: #f7f7f7;
+	background-color: #FFEBCD;
 	border: 2px solid;
 	grid-column: 1 / 7;
 	box-shadow: inherit;
@@ -60,13 +60,13 @@ body {
 
 .dashboard > div:last-of-type {
 	margin-bottom: 5px;
-	background-color: #FFEBCD;
+	
 }
 
 .table-wrap {
 	max-width: 100%;
 	overflow-x: auto;
-	background-color: #FFEBCD;
+	
 }
 
 h2 {
