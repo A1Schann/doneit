@@ -59,6 +59,7 @@ body {
 
 .dashboard > div:last-of-type {
 	margin-bottom: 5px;
+	background-color: #FFEBCD;
 }
 
 .table-wrap {
