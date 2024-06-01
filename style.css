@@ -22,9 +22,9 @@ body {
 	font-size: 15px;
 	background: repeating-linear-gradient(
 		45deg,
-		#f7f7f7,
+		#9FEE00,
 		#fcc573 2px,
-		#f7f7f7 2px,
+		#9FEE00 2px,
 		#fcc573 6px
 	);
 	background-attachment: fixed;
