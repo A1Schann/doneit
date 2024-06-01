@@ -18,8 +18,6 @@ body {
 	#oneBook{
     	display: flex;
    	justify-content: center;
-   	width: 1700px;
-        height: 100px;
         background-color: #fcc573;
         font-family: cursive;
 }
